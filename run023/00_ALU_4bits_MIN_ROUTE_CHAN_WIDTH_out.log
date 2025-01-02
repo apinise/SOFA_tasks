@@ -1,0 +1,28 @@
+* * * * * * * * * * * * * * * * * * * * 
+RunDirectory : /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run023
+python3 /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/scripts/run_fpga_flow.py /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/arch/vpr_arch.xml ../../../benchmarks/micro_benchmark/ALU_4bits.v --top_module ALU_4bits --run_dir /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run023/vpr_arch/ALU_4bits/MIN_ROUTE_CHAN_WIDTH --fpga_flow yosys_vpr --openfpga_shell_template /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/generate_testbench.openfpga --openfpga_arch_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/arch/openfpga_arch.xml --openfpga_sim_setting_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/openfpga_simulation_settings/auto_sim_openfpga.xml --external_fabric_key_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/arch/fabric_key.xml --openfpga_vpr_device_layout FPGA88 --openfpga_vpr_route_chan_width 60 --openfpga_pcf /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pcf_files/ALU_4bits.pcf --openfpga_pin_table /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pinmap_sofa_a.csv --openfpga_io_map_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/fpga_io_location.xml --openfpga_vpr_fix_pins_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/ALU_4bits.place --openfpga_pin_table_direction_convention explicit --power --power_tech /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tech/PTM_45nm/45nm.xml --arch_variable_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/design_variables.yml --vpr_fpga_verilog --vpr_fpga_verilog_dir /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run023/vpr_arch/ALU_4bits/MIN_ROUTE_CHAN_WIDTH --vpr_fpga_x2p_rename_illegal_port --end_flow_with_test --vpr_fpga_verilog_formal_verification_top_netlist --debug --flow_config /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/config/task.conf --TOP ALU_4bits
+* * * * * * * * * * * * * * * * * * * * 
+INFO - Validating command line arguments
+INFO - Setting loggger in debug mode
+INFO - Run directory : /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run023/vpr_arch/ALU_4bits/MIN_ROUTE_CHAN_WIDTH
+INFO - Running "yosys_vpr" Flow
+INFO - Extracted lut_size size from arch XML = 4
+INFO - Running Yosys with lut_size = 4
+INFO - Launching Run yosys 
+INFO - Run yosys is written in file yosys_output.log
+INFO - ACE2 output is written in file ALU_4bits_ace2_output.txt
+INFO - blif_3args output is written in file ALU_4bits_blif_3args_output.txt
+INFO - Launching Yosys 
+INFO - Yosys is written in file yosys_rewrite.log
+INFO - Running OpenFPGA Shell Engine 
+INFO - Launching OpenFPGA Shell Run 
+INFO - OpenFPGA Shell Run is written in file openfpgashell.log
+INFO - vpr result extracted in file vpr_stat.result
+INFO - Launching iverilog_verification 
+ERROR - iverilog_verification run failed with returncode 1
+ERROR - command iverilog -o compiled_ALU_4bits ./SRC/ALU_4bits_include_netlists.v -s ALU_4bits_top_formal_verification_random_tb -I ./SRC
+ERROR - -->>error: Unable to find the root module "ALU_4bits_top_formal_verification_random_tb" in the Verilog source.
+ERROR - -->>1 error(s) during elaboration.
+ERROR - Current working directory : /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run023/vpr_arch/ALU_4bits/MIN_ROUTE_CHAN_WIDTH
+ERROR - Failed to run iverilog_verification task
+ERROR - Exiting . . . . . .

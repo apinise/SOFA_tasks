@@ -1,0 +1,55 @@
+<!-- Netlist naming fix-up report --> 
+<netlist>
+	<blocks>
+		<block previous="operand_A[0]" current="operand_A_0_"/>
+		<block previous="operand_A[1]" current="operand_A_1_"/>
+		<block previous="operand_A[2]" current="operand_A_2_"/>
+		<block previous="operand_A[3]" current="operand_A_3_"/>
+		<block previous="operand_B[0]" current="operand_B_0_"/>
+		<block previous="operand_B[1]" current="operand_B_1_"/>
+		<block previous="operand_B[2]" current="operand_B_2_"/>
+		<block previous="operand_B[3]" current="operand_B_3_"/>
+		<block previous="operation[0]" current="operation_0_"/>
+		<block previous="operation[1]" current="operation_1_"/>
+		<block previous="out:result[0]" current="out_result_0_"/>
+		<block previous="out:result[1]" current="out_result_1_"/>
+		<block previous="out:result[2]" current="out_result_2_"/>
+		<block previous="out:result[3]" current="out_result_3_"/>
+		<block previous="result[0]" current="result_0_"/>
+		<block previous="$abc$275$new_n19_" current="_abc_275_new_n19_"/>
+		<block previous="$abc$275$new_n23_" current="_abc_275_new_n23_"/>
+		<block previous="$abc$275$new_n24_" current="_abc_275_new_n24_"/>
+		<block previous="$abc$275$new_n27_" current="_abc_275_new_n27_"/>
+		<block previous="$abc$275$new_n31_" current="_abc_275_new_n31_"/>
+		<block previous="result[1]" current="result_1_"/>
+		<block previous="$abc$275$new_n33_" current="_abc_275_new_n33_"/>
+		<block previous="result[2]" current="result_2_"/>
+		<block previous="$abc$275$new_n35_" current="_abc_275_new_n35_"/>
+		<block previous="$abc$275$new_n36_" current="_abc_275_new_n36_"/>
+		<block previous="result[3]" current="result_3_"/>
+	</blocks>
+	<nets>
+		<net previous="operand_A[0]" current="operand_A_0_"/>
+		<net previous="operand_A[1]" current="operand_A_1_"/>
+		<net previous="operand_A[2]" current="operand_A_2_"/>
+		<net previous="operand_A[3]" current="operand_A_3_"/>
+		<net previous="operand_B[0]" current="operand_B_0_"/>
+		<net previous="operand_B[1]" current="operand_B_1_"/>
+		<net previous="operand_B[2]" current="operand_B_2_"/>
+		<net previous="operand_B[3]" current="operand_B_3_"/>
+		<net previous="operation[0]" current="operation_0_"/>
+		<net previous="operation[1]" current="operation_1_"/>
+		<net previous="result[0]" current="result_0_"/>
+		<net previous="result[1]" current="result_1_"/>
+		<net previous="result[2]" current="result_2_"/>
+		<net previous="result[3]" current="result_3_"/>
+		<net previous="$abc$275$new_n19_" current="_abc_275_new_n19_"/>
+		<net previous="$abc$275$new_n23_" current="_abc_275_new_n23_"/>
+		<net previous="$abc$275$new_n24_" current="_abc_275_new_n24_"/>
+		<net previous="$abc$275$new_n27_" current="_abc_275_new_n27_"/>
+		<net previous="$abc$275$new_n31_" current="_abc_275_new_n31_"/>
+		<net previous="$abc$275$new_n33_" current="_abc_275_new_n33_"/>
+		<net previous="$abc$275$new_n35_" current="_abc_275_new_n35_"/>
+		<net previous="$abc$275$new_n36_" current="_abc_275_new_n36_"/>
+	</nets>
+</netlist>

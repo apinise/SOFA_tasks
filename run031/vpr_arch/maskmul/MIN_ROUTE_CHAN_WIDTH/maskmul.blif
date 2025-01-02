@@ -1,0 +1,45 @@
+# Benchmark "maskmul" written by ABC on Mon Dec  9 16:32:45 2024
+.model maskmul
+.inputs am[0] am[1] bm[0] bm[1] ma[0] ma[1] mb[0] \
+mb[1] mq[0] mq[1] reset clock 
+.outputs qm[0] qm[1] 
+
+.latch n30 qm[0] re clock 2
+.latch n34 qm[1] re clock 2
+
+.names ma[1] mb[1] bm[1] am[1] $abc$139$new_n27_
+0011 1
+0101 1
+1010 1
+1100 1
+.names mb[0] ma[0] am[0] bm[0] $abc$139$new_n28_
+0011 1
+0101 1
+1010 1
+1100 1
+.names mq[0] $abc$139$new_n28_ $abc$139$new_n27_ reset n30
+0011 1
+0101 1
+1001 1
+1111 1
+.names mb[1] bm[1] $abc$139$new_n30_
+01 1
+10 1
+.names $abc$139$new_n30_ ma[0] am[0] mq[1] $abc$139$new_n31_
+-001 1
+-111 1
+0--1 1
+1010 1
+1100 1
+.names mb[0] bm[0] $abc$139$new_n32_
+01 1
+10 1
+.names ma[1] $abc$139$new_n30_ $abc$139$new_n32_ am[1] $abc$139$new_n33_
+0011 1
+0101 1
+1010 1
+1100 1
+.names $abc$139$new_n33_ $abc$139$new_n31_ reset n34
+011 1
+101 1
+.end

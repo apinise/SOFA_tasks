@@ -1,0 +1,17 @@
+Objects in network: 232
+PIs in network: 1
+POs in network: 24
+Nodes in network: 63
+Latches in network: 48
+Max Depth: 8
+Input activities will be assumed (0.500000, 0.200000, 0.200000)...
+Clock detected: clk
+Name Manager Entries: 232
+48/48 latches are part of cycle(s)
+Stage 1: Simulating Probabilities...
+Stage 2: Computing Probabilities...
+Stage 3: Computing Register Output Activities...
+Stage 4: Computing Switching Activities...
+Warning: The output network does not contain blackboxes.
+Done
+Ace took 0.03 seconds (max_rss 41.3 MiB)

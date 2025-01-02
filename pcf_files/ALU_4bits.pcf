@@ -1,0 +1,17 @@
+set_io operand_A[0] gfpga_pad_io_soc_in[46]
+set_io operand_A[1] gfpga_pad_io_soc_in[45]
+set_io operand_A[2] gfpga_pad_io_soc_in[44]
+set_io operand_A[3] gfpga_pad_io_soc_in[43]
+
+set_io operand_B[0] gfpga_pad_io_soc_in[42]
+set_io operand_B[1] gfpga_pad_io_soc_in[41]
+set_io operand_B[2] gfpga_pad_io_soc_in[40]
+set_io operand_B[3] gfpga_pad_io_soc_in[39]
+
+set_io operation[0] gfpga_pad_io_soc_in[37]
+set_io operation[1] gfpga_pad_io_soc_in[36]
+
+set_io result[0] gfpga_pad_io_soc_out[127]
+set_io result[1] gfpga_pad_io_soc_out[125]
+set_io result[2] gfpga_pad_io_soc_out[123]
+set_io result[3] gfpga_pad_io_soc_out[122]

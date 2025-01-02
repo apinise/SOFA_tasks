@@ -1,0 +1,21 @@
+* * * * * * * * * * * * * * * * * * * * 
+RunDirectory : /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run040
+python3 /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/scripts/run_fpga_flow.py /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/arch/vpr_arch.xml ../../../benchmarks/micro_benchmark/maskmul.v --top_module maskmul --run_dir /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run040/vpr_arch/maskmul/MIN_ROUTE_CHAN_WIDTH --fpga_flow yosys_vpr --openfpga_shell_template /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/generate_testbench.openfpga --openfpga_pin_constraints_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/config/pin_constraints.xml --openfpga_arch_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/arch/openfpga_arch.xml --openfpga_sim_setting_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/openfpga_simulation_settings/auto_sim_openfpga.xml --external_fabric_key_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/arch/fabric_key.xml --openfpga_vpr_device_layout FPGA88 --openfpga_vpr_route_chan_width 60 --openfpga_pcf /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pcf_files/maskmul.pcf --openfpga_pin_table /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pinmap_sofa_a.csv --openfpga_io_map_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/fpga_io_location.xml --openfpga_vpr_fix_pins_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/maskmul.place --openfpga_pin_table_direction_convention explicit --power --power_tech /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tech/PTM_45nm/45nm.xml --arch_variable_file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/design_variables.yml --vpr_fpga_verilog --vpr_fpga_verilog_dir /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run040/vpr_arch/maskmul/MIN_ROUTE_CHAN_WIDTH --vpr_fpga_x2p_rename_illegal_port --debug --flow_config /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/config/task.conf --TOP maskmul --READ_VERILOG_OPTIONS -nolatches
+* * * * * * * * * * * * * * * * * * * * 
+INFO - Validating command line arguments
+INFO - Setting loggger in debug mode
+INFO - Run directory : /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run040/vpr_arch/maskmul/MIN_ROUTE_CHAN_WIDTH
+INFO - Running "yosys_vpr" Flow
+INFO - Extracted lut_size size from arch XML = 4
+INFO - Running Yosys with lut_size = 4
+INFO - Launching Run yosys 
+INFO - Run yosys is written in file yosys_output.log
+INFO - ACE2 output is written in file maskmul_ace2_output.txt
+INFO - blif_3args output is written in file maskmul_blif_3args_output.txt
+INFO - Launching Yosys 
+INFO - Yosys is written in file yosys_rewrite.log
+INFO - Running OpenFPGA Shell Engine 
+INFO - Launching OpenFPGA Shell Run 
+INFO - OpenFPGA Shell Run is written in file openfpgashell.log
+INFO - vpr result extracted in file vpr_stat.result
+INFO - Openfpga_flow completed, Total Time Taken 2 seconds VPR Time 2 seconds 

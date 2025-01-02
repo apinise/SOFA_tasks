@@ -1,0 +1,253 @@
+# Benchmark "fpga_LFSR" written by ABC on Thu Dec  5 17:40:35 2024
+.model fpga_LFSR
+.inputs clk
+.outputs out[0] out[1] out[2] out[3] out[4] out[5] out[6] out[7] out[8] \
+ out[9] out[10] out[11] out[12] out[13] out[14] out[15] out[16] out[17] \
+ out[18] out[19] out[20] out[21] out[22] out[23]
+
+.latch        n52    cntr[0]  0
+.latch        n57    cntr[1]  0
+.latch        n62    cntr[2]  0
+.latch        n67    cntr[3]  0
+.latch        n72    cntr[4]  0
+.latch        n77    cntr[5]  0
+.latch        n82    cntr[6]  0
+.latch        n87    cntr[7]  0
+.latch        n92    cntr[8]  0
+.latch        n97    cntr[9]  0
+.latch       n102   cntr[10]  0
+.latch       n107   cntr[11]  0
+.latch       n112   cntr[12]  0
+.latch       n117   cntr[13]  0
+.latch       n122   cntr[14]  0
+.latch       n127   cntr[15]  0
+.latch       n132   cntr[16]  0
+.latch       n137   cntr[17]  0
+.latch       n142   cntr[18]  0
+.latch       n147   cntr[19]  0
+.latch       n152   cntr[20]  0
+.latch       n157   cntr[21]  0
+.latch       n162   cntr[22]  0
+.latch       n167   cntr[23]  0
+.latch       n172     out[0]  0
+.latch       n176     out[1]  0
+.latch       n180     out[2]  0
+.latch       n184     out[3]  0
+.latch       n188     out[4]  0
+.latch       n192     out[5]  0
+.latch       n196     out[6]  0
+.latch       n200     out[7]  0
+.latch       n204     out[8]  0
+.latch       n208     out[9]  0
+.latch       n212    out[10]  0
+.latch       n216    out[11]  0
+.latch       n220    out[12]  0
+.latch       n224    out[13]  0
+.latch       n228    out[14]  0
+.latch       n232    out[15]  0
+.latch       n236    out[16]  0
+.latch       n240    out[17]  0
+.latch       n244    out[18]  0
+.latch       n248    out[19]  0
+.latch       n252    out[20]  0
+.latch       n256    out[21]  0
+.latch       n260    out[22]  0
+.latch       n264    out[23]  0
+
+.names cntr[1] cntr[0] n57
+00 1
+11 1
+.names cntr[1] cntr[0] cntr[2] n62
+-11 1
+000 1
+1-1 1
+.names cntr[1] cntr[2] cntr[0] cntr[3] n67
+--11 1
+-1-1 1
+0000 1
+1--1 1
+.names cntr[4] $abc$649$new_n102_ n72
+01 1
+10 1
+.names cntr[1] cntr[3] cntr[2] cntr[0] $abc$649$new_n102_
+0000 1
+.names cntr[4] $abc$649$new_n102_ cntr[5] n77
+-01 1
+010 1
+1-1 1
+.names cntr[5] cntr[4] $abc$649$new_n102_ cntr[6] n82
+--01 1
+-1-1 1
+0010 1
+1--1 1
+.names $abc$649$new_n106_ cntr[7] $abc$649$new_n111_ n87
+001 1
+010 1
+.names cntr[20] $abc$649$new_n112_ $abc$649$new_n107_ $abc$649$new_n106_
+011 1
+.names cntr[18] cntr[17] cntr[16] $abc$649$new_n108_ $abc$649$new_n107_
+0001 1
+.names cntr[15] cntr[14] cntr[13] $abc$649$new_n109_ $abc$649$new_n108_
+0001 1
+.names cntr[12] cntr[11] cntr[10] $abc$649$new_n110_ $abc$649$new_n109_
+0001 1
+.names cntr[9] cntr[8] cntr[7] $abc$649$new_n111_ $abc$649$new_n110_
+0001 1
+.names cntr[5] cntr[4] cntr[6] $abc$649$new_n102_ $abc$649$new_n111_
+0001 1
+.names cntr[23] cntr[22] cntr[21] cntr[19] $abc$649$new_n112_
+0000 1
+.names cntr[7] $abc$649$new_n111_ $abc$649$new_n106_ cntr[8] n92
+-001 1
+0100 1
+1-01 1
+.names cntr[8] cntr[7] $abc$649$new_n111_ cntr[9] n97
+--01 1
+-1-1 1
+0010 1
+1--1 1
+.names cntr[10] $abc$649$new_n110_ n102
+01 1
+10 1
+.names cntr[10] $abc$649$new_n110_ $abc$649$new_n106_ cntr[11] n107
+-001 1
+0100 1
+1-01 1
+.names cntr[11] cntr[10] $abc$649$new_n110_ cntr[12] n112
+--01 1
+-1-1 1
+0010 1
+1--1 1
+.names $abc$649$new_n106_ cntr[13] $abc$649$new_n109_ n117
+001 1
+010 1
+.names cntr[13] $abc$649$new_n109_ $abc$649$new_n106_ cntr[14] n122
+-001 1
+0100 1
+1-01 1
+.names cntr[14] cntr[13] $abc$649$new_n109_ cntr[15] n127
+--01 1
+-1-1 1
+0010 1
+1--1 1
+.names $abc$649$new_n106_ cntr[16] $abc$649$new_n108_ n132
+001 1
+010 1
+.names cntr[16] $abc$649$new_n108_ $abc$649$new_n106_ cntr[17] n137
+-001 1
+0100 1
+1-01 1
+.names $abc$649$new_n124_ $abc$649$new_n106_ n142
+00 1
+.names cntr[17] cntr[16] $abc$649$new_n108_ cntr[18] $abc$649$new_n124_
+--00 1
+-1-0 1
+0011 1
+1--0 1
+.names cntr[19] $abc$649$new_n107_ n147
+01 1
+10 1
+.names cntr[19] $abc$649$new_n107_ cntr[20] n152
+-01 1
+010 1
+1-1 1
+.names $abc$649$new_n128_ $abc$649$new_n106_ n157
+00 1
+.names cntr[20] cntr[19] $abc$649$new_n107_ cntr[21] $abc$649$new_n128_
+--00 1
+-1-0 1
+0011 1
+1--0 1
+.names $abc$649$new_n106_ cntr[22] $abc$649$new_n130_ n162
+001 1
+010 1
+.names cntr[21] cntr[20] cntr[19] $abc$649$new_n107_ $abc$649$new_n130_
+0001 1
+.names cntr[22] $abc$649$new_n130_ cntr[23] n167
+-01 1
+010 1
+1-1 1
+.names out[0] $abc$649$new_n133_ $abc$649$new_n106_ n172
+-11 1
+1-0 1
+.names out[23] out[22] out[21] out[16] $abc$649$new_n133_
+0000 1
+0011 1
+0101 1
+0110 1
+1001 1
+1010 1
+1100 1
+1111 1
+.names out[1] out[0] $abc$649$new_n106_ n176
+-11 1
+1-0 1
+.names out[2] out[1] $abc$649$new_n106_ n180
+-11 1
+1-0 1
+.names out[3] out[2] $abc$649$new_n106_ n184
+-11 1
+1-0 1
+.names out[4] out[3] $abc$649$new_n106_ n188
+-11 1
+1-0 1
+.names out[5] out[4] $abc$649$new_n106_ n192
+-11 1
+1-0 1
+.names out[6] out[5] $abc$649$new_n106_ n196
+-11 1
+1-0 1
+.names out[7] out[6] $abc$649$new_n106_ n200
+-11 1
+1-0 1
+.names out[8] out[7] $abc$649$new_n106_ n204
+-11 1
+1-0 1
+.names out[9] out[8] $abc$649$new_n106_ n208
+-11 1
+1-0 1
+.names out[10] out[9] $abc$649$new_n106_ n212
+-11 1
+1-0 1
+.names out[11] out[10] $abc$649$new_n106_ n216
+-11 1
+1-0 1
+.names out[12] out[11] $abc$649$new_n106_ n220
+-11 1
+1-0 1
+.names out[13] out[12] $abc$649$new_n106_ n224
+-11 1
+1-0 1
+.names out[14] out[13] $abc$649$new_n106_ n228
+-11 1
+1-0 1
+.names out[15] out[14] $abc$649$new_n106_ n232
+-11 1
+1-0 1
+.names out[16] out[15] $abc$649$new_n106_ n236
+-11 1
+1-0 1
+.names out[17] out[16] $abc$649$new_n106_ n240
+-11 1
+1-0 1
+.names out[18] out[17] $abc$649$new_n106_ n244
+-11 1
+1-0 1
+.names out[19] out[18] $abc$649$new_n106_ n248
+-11 1
+1-0 1
+.names out[20] out[19] $abc$649$new_n106_ n252
+-11 1
+1-0 1
+.names out[21] out[20] $abc$649$new_n106_ n256
+-11 1
+1-0 1
+.names out[22] out[21] $abc$649$new_n106_ n260
+-11 1
+1-0 1
+.names out[23] out[22] $abc$649$new_n106_ n264
+-11 1
+1-0 1
+.names cntr[0] n52
+0 1
+.end

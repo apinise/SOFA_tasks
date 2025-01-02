@@ -1,0 +1,117 @@
+#Timing report of worst 4 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: operation[1].inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:result[3].outpad[0] (.output clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+operation[1].inpad[0] (.input)                                   0.000     0.000
+result[3].in[1] (.names)                                         4.260     4.260
+result[3].out[0] (.names)                                        0.920     5.180
+out:result[3].outpad[0] (.output)                                8.580    13.760
+data arrival time                                                         13.760
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                         13.760
+--------------------------------------------------------------------------------
+slack (MET)                                                               13.760
+
+
+#Path 2
+Startpoint: operation[0].inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:result[0].outpad[0] (.output clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+operation[0].inpad[0] (.input)                                   0.000     0.000
+result[0].in[0] (.names)                                         2.820     2.820
+result[0].out[0] (.names)                                        1.210     4.030
+out:result[0].outpad[0] (.output)                               10.020    14.050
+data arrival time                                                         14.050
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                         14.050
+--------------------------------------------------------------------------------
+slack (MET)                                                               14.050
+
+
+#Path 3
+Startpoint: operation[1].inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:result[1].outpad[0] (.output clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+operation[1].inpad[0] (.input)                                   0.000     0.000
+result[1].in[0] (.names)                                         2.820     2.820
+result[1].out[0] (.names)                                        1.210     4.030
+out:result[1].outpad[0] (.output)                               10.020    14.050
+data arrival time                                                         14.050
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                         14.050
+--------------------------------------------------------------------------------
+slack (MET)                                                               14.050
+
+
+#Path 4
+Startpoint: operation[1].inpad[0] (.input clocked by virtual_io_clock)
+Endpoint  : out:result[2].outpad[0] (.output clocked by virtual_io_clock)
+Path Type : hold
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+operation[1].inpad[0] (.input)                                   0.000     0.000
+result[2].in[0] (.names)                                         4.260     4.260
+result[2].out[0] (.names)                                        1.210     5.470
+out:result[2].outpad[0] (.output)                                8.580    14.050
+data arrival time                                                         14.050
+
+clock virtual_io_clock (rise edge)                               0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                        -0.000
+data arrival time                                                         14.050
+--------------------------------------------------------------------------------
+slack (MET)                                                               14.050
+
+
+#End of timing report

@@ -1,0 +1,45 @@
+<!-- Netlist naming fix-up report --> 
+<netlist>
+	<blocks>
+		<block previous="am[0]" current="am_0_"/>
+		<block previous="am[1]" current="am_1_"/>
+		<block previous="bm[0]" current="bm_0_"/>
+		<block previous="bm[1]" current="bm_1_"/>
+		<block previous="ma[0]" current="ma_0_"/>
+		<block previous="ma[1]" current="ma_1_"/>
+		<block previous="mb[0]" current="mb_0_"/>
+		<block previous="mb[1]" current="mb_1_"/>
+		<block previous="mq[0]" current="mq_0_"/>
+		<block previous="mq[1]" current="mq_1_"/>
+		<block previous="out:qm[0]" current="out_qm_0_"/>
+		<block previous="out:qm[1]" current="out_qm_1_"/>
+		<block previous="qm[0]" current="qm_0_"/>
+		<block previous="qm[1]" current="qm_1_"/>
+		<block previous="$abc$139$new_n27_" current="_abc_139_new_n27_"/>
+		<block previous="$abc$139$new_n28_" current="_abc_139_new_n28_"/>
+		<block previous="$abc$139$new_n30_" current="_abc_139_new_n30_"/>
+		<block previous="$abc$139$new_n31_" current="_abc_139_new_n31_"/>
+		<block previous="$abc$139$new_n32_" current="_abc_139_new_n32_"/>
+		<block previous="$abc$139$new_n33_" current="_abc_139_new_n33_"/>
+	</blocks>
+	<nets>
+		<net previous="am[0]" current="am_0_"/>
+		<net previous="am[1]" current="am_1_"/>
+		<net previous="bm[0]" current="bm_0_"/>
+		<net previous="bm[1]" current="bm_1_"/>
+		<net previous="ma[0]" current="ma_0_"/>
+		<net previous="ma[1]" current="ma_1_"/>
+		<net previous="mb[0]" current="mb_0_"/>
+		<net previous="mb[1]" current="mb_1_"/>
+		<net previous="mq[0]" current="mq_0_"/>
+		<net previous="mq[1]" current="mq_1_"/>
+		<net previous="qm[0]" current="qm_0_"/>
+		<net previous="qm[1]" current="qm_1_"/>
+		<net previous="$abc$139$new_n27_" current="_abc_139_new_n27_"/>
+		<net previous="$abc$139$new_n28_" current="_abc_139_new_n28_"/>
+		<net previous="$abc$139$new_n30_" current="_abc_139_new_n30_"/>
+		<net previous="$abc$139$new_n31_" current="_abc_139_new_n31_"/>
+		<net previous="$abc$139$new_n32_" current="_abc_139_new_n32_"/>
+		<net previous="$abc$139$new_n33_" current="_abc_139_new_n33_"/>
+	</nets>
+</netlist>

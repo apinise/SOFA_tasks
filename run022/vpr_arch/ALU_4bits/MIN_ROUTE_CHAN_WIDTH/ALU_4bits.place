@@ -1,0 +1,21 @@
+Netlist_File: ALU_4bits.net Netlist_ID: SHA256:c71f09bae7dd7be2f8062afbb9c21c48e92ec5d6a4d9bca6e701c22dc549d648
+Array size: 10 x 10 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+$abc$275$new_n19_	8	6	0	#0
+$abc$275$new_n31_	8	7	0	#1
+out:result[3]	0	7	2	#2
+out:result[2]	0	7	3	#3
+out:result[1]	0	8	1	#4
+out:result[0]	0	8	3	#5
+operand_A[0]	9	5	2	#6
+operand_A[1]	9	5	1	#7
+operand_A[2]	9	5	0	#8
+operand_A[3]	9	6	3	#9
+operand_B[0]	9	6	2	#10
+operand_B[1]	9	6	1	#11
+operand_B[2]	9	6	0	#12
+operand_B[3]	9	7	3	#13
+operation[0]	9	7	1	#14
+operation[1]	9	7	0	#15

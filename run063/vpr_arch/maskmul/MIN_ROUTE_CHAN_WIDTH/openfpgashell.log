@@ -1,0 +1,92 @@
+/home/everton/OpenFPGA_bitstream_generation/build/openfpga/openfpga -batch -f maskmul_run.openfpga
+Reading script file maskmul_run.openfpga...
+
+            ___                   _____ ____   ____    _     
+           / _ \ _ __   ___ _ __ |  ___|  _ \ / ___|  / \    
+          | | | | '_ \ / _ \ '_ \| |_  | |_) | |  _  / _ \   
+          | |_| | |_) |  __/ | | |  _| |  __/| |_| |/ ___ \  
+           \___/| .__/ \___|_| |_|_|   |_|    \____/_/   \_\ 
+                |_|                                          
+
+               OpenFPGA: An Open-source FPGA IP Generator
+                     Versatile Place and Route (VPR)
+                           FPGA-Verilog
+                           FPGA-SPICE
+                           FPGA-SDC
+                           FPGA-Bitstream
+
+             This is a free software under the MIT License
+
+             Copyright (c) 2018 LNIS - The University of Utah
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+
+Command line to execute: pcf2place --pcf /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pcf_files/maskmul.pcf           --blif maskmul.blif           --pin_table /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pinmap_sofa_a.csv           --fpga_io_map /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/fpga_io_location.xml           --fpga_fix_pins /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/maskmul.place           --pin_table_direction_convention explicit
+
+Confirm selected options when call command 'pcf2place':
+--pcf: /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pcf_files/maskmul.pcf
+--blif: maskmul.blif
+--fpga_io_map: /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/fpga_io_location.xml
+--pin_table: /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pinmap_sofa_a.csv
+--fpga_fix_pins: /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/maskmul.place
+--pin_table_direction_convention: explicit
+--no_time_stamp: off
+--verbose: off
+Read /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pcf_files/maskmul.pcf
+Read /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pcf_files/maskmul.pcf took 0.00 seconds (max_rss 23.0 MiB, delta_rss +0.0 MiB)
+Read the design constraints from a pcf file: /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pcf_files/maskmul.pcf.
+Read the blif from a file: maskmul.blif.
+Read I/O Location Map
+Read I/O Location Map took 0.00 seconds (max_rss 23.0 MiB, delta_rss +0.0 MiB)
+Read the I/O location map from an XML file: /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/fpga_io_location.xml.
+Read I/O Pin Table
+Read I/O Pin Table took 0.00 seconds (max_rss 23.0 MiB, delta_rss +0.0 MiB)
+Read the I/O pin table from a csv file: /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/pinmap_sofa_a.csv.
+Convert PCF data to VPR I/O place data
+PCF basic check passed
+Convert PCF data to VPR I/O place data took 0.00 seconds (max_rss 23.0 MiB, delta_rss +0.0 MiB)
+Warning 1: Directory '/home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks' already exists. Will overwrite contents
+Write I/O coordinates to a place file '/home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/maskmul.place'
+Write I/O coordinates to a place file '/home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/maskmul.place' took 0.00 seconds (max_rss 23.0 MiB, delta_rss +0.0 MiB)
+
+Command line to execute: vpr /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/run063/vpr_arch/maskmul/MIN_ROUTE_CHAN_WIDTH/arch/vpr_arch.xml maskmul.blif   --clock_modeling ideal   --device FPGA88   --route_chan_width 60   --absorb_buffer_luts off   --write_rr_graph rr_graph_out.xml   --gen_post_synthesis_netlist on   --skip_sync_clustering_and_routing_results on  --fpga_fix_pins /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/maskmul.place  --fix_clusters /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/SOFA_tasks/maskmul.place
+VPR FPGA Placement and Routing.
+Version: 8.1.0-dev+9e53e9a0a
+Revision: v8.0.0-7093-g9e53e9a0a
+Compiled: 2023-03-09T12:34:30
+Compiler: GNU 11.3.0 on Linux-5.19.0-35-generic x86_64
+Build Info: release IPO VTR_ASSERT_LEVEL=2
+
+University of Toronto
+verilogtorouting.org
+vtr-users@googlegroups.com
+This is free open source code under MIT license.
+
+Unexpected command-line argument '--fpga_fix_pins'
+
+usage: vpr architecture circuit [--pack] [--place] [--route] [--analysis] 
+       [--disp {on, off}] [--save_graphics {on, off}] 
+       [--graphics_commands GRAPHICS_COMMANDS] [-h] [--version] 
+       [--device DEVICE_NAME] [-j NUM_WORKERS] [--timing_analysis {on, off}] 
+       [--disable_errors DISABLE_ERRORS] [--suppress_warnings SUPPRESS_WARNINGS] 
+       [--terminate_if_timing_fails {on, off}] 
+       [--route_chan_width CHANNEL_WIDTH] [OTHER_OPTIONS ...]
+1

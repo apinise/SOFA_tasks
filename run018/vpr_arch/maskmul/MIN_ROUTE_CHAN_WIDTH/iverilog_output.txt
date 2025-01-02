@@ -1,0 +1,6 @@
+iverilog -o compiled_maskmul ./SRC/maskmul_include_netlists.v -s maskmul_top_formal_verification_random_tb -I ./SRC
+././SRC/fabric_netlists.v:16: Include file /home/everton/OpenFPGA_bitstream_generation/openfpga_flow/tasks/FPGA22_HIER_SKY_PNR/skywater/libraries/sky130_fd_sc_hd/latest/cells/inv/sky130_fd_sc_hd__inv_1.v not found
+error: Unable to find the root module "maskmul_top_formal_verification_random_tb" in the Verilog source.
+     : Perhaps ``-s maskmul_top_formal_verification_random_tb'' is incorrect?
+1 error(s) during elaboration.
+1

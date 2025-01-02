@@ -1,0 +1,5 @@
+set_io in gfpga_pad_io_soc_in[43]
+
+set_io out gfpga_pad_io_soc_out[42]
+
+

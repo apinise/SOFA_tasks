@@ -1,0 +1,48 @@
+# Benchmark "counter" written by ABC on Tue Mar 28 15:17:04 2023
+.model counter
+.inputs clk
+.outputs q[0] q[1] q[2] q[3] q[4] q[5] q[6] q[7]
+
+.latch        n20       q[0]  0
+.latch        n24       q[1]  0
+.latch        n28       q[2]  0
+.latch        n32       q[3]  0
+.latch        n36       q[4]  0
+.latch        n40       q[5]  0
+.latch        n44       q[6]  0
+.latch        n48       q[7]  0
+
+.names q[1] q[0] n24
+01 1
+10 1
+.names q[1] q[0] q[2] n28
+-01 1
+0-1 1
+110 1
+.names q[2] q[1] q[0] q[3] n32
+--01 1
+-0-1 1
+0--1 1
+1110 1
+.names q[4] $abc$208$new_n22_ n36
+01 1
+10 1
+.names q[3] q[2] q[1] q[0] $abc$208$new_n22_
+1111 1
+.names q[4] $abc$208$new_n22_ q[5] n40
+-01 1
+0-1 1
+110 1
+.names q[5] q[4] $abc$208$new_n22_ q[6] n44
+--01 1
+-0-1 1
+0--1 1
+1110 1
+.names q[7] $abc$208$new_n26_ n48
+01 1
+10 1
+.names q[6] q[5] q[4] $abc$208$new_n22_ $abc$208$new_n26_
+1111 1
+.names q[0] n20
+0 1
+.end

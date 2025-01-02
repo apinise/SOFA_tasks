@@ -1,0 +1,2 @@
+name,TotalRunTime,average_net_length,clb_blocks,io_blocks,packing_time,placement_time,routing_time,total_logic_block_area,total_routing_area,total_routing_time,total_wire_length
+00_fpga_LFSR_MIN_ROUTE_CHAN_WIDTH,2,15.8667,8,25,0.01,0.00,0.02,431152,373865,0.02,952

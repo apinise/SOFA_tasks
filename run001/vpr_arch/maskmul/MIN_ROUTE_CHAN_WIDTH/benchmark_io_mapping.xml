@@ -1,0 +1,20 @@
+<!--
+	- I/O mapping
+-->
+
+<io_mapping>
+	<io name="gfpga_pad_io_soc_in[49:49]" net="am_0_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[48:48]" net="am_1_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[51:51]" net="bm_0_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[50:50]" net="bm_1_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[53:53]" net="ma_0_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[52:52]" net="ma_1_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[55:55]" net="mb_0_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[54:54]" net="mb_1_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[57:57]" net="mq_0_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[56:56]" net="mq_1_" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[60:60]" net="reset" dir="input"/>
+	<io name="gfpga_pad_io_soc_in[89:89]" net="clk" dir="input"/>
+	<io name="gfpga_pad_io_soc_out[59:59]" net="qm_0_" dir="output"/>
+	<io name="gfpga_pad_io_soc_out[58:58]" net="qm_1_" dir="output"/>
+</io_mapping>

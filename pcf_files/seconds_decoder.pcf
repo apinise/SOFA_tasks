@@ -1,0 +1,9 @@
+
+set_io decoder_out[0] gfpga_pad_io_soc_out[45]
+set_io decoder_out[1] gfpga_pad_io_soc_out[44]
+set_io decoder_out[2] gfpga_pad_io_soc_out[43]
+set_io decoder_out[3] gfpga_pad_io_soc_out[42]
+set_io decoder_out[4] gfpga_pad_io_soc_out[41]
+set_io decoder_out[5] gfpga_pad_io_soc_out[40]
+set_io decoder_out[6] gfpga_pad_io_soc_out[39]
+set_io decoder_out[7] gfpga_pad_io_soc_out[37]

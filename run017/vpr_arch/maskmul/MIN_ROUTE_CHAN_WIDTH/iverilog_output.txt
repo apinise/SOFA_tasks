@@ -1,0 +1,1 @@
+iverilog -o compiled_maskmul ./SRC/maskmul_include_netlists.v -s maskmul_top_formal_verification_random_tb -I ${OPENFPGA_PATH}/openfpga_flow/tasks/FPGA22_HIER_SKY_PNR/skywater/libraries/sky130_fd_sc_hd/latest/cells/inv
