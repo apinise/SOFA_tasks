@@ -1,10 +1,10 @@
 # Convert .pcf to a .place file that VPR can accept
-pcf2place --pcf ${OPENFPGA_PCF} \
-          --blif ${VPR_TESTBENCH_BLIF} \
-          --pin_table ${OPENFPGA_PIN_TABLE} \
-          --fpga_io_map ${OPENFPGA_IO_MAP_FILE} \
-          --fpga_fix_pins ${OPENFPGA_VPR_FIX_PINS_FILE} \
-          --pin_table_direction_convention ${OPENFPGA_PIN_TABLE_DIRECTION_CONVENTION}
+#pcf2place --pcf ${OPENFPGA_PCF} \
+#          --blif ${VPR_TESTBENCH_BLIF} \
+#          --pin_table ${OPENFPGA_PIN_TABLE} \
+#          --fpga_io_map ${OPENFPGA_IO_MAP_FILE} \
+#          --fpga_fix_pins ${OPENFPGA_VPR_FIX_PINS_FILE} \
+#          --pin_table_direction_convention ${OPENFPGA_PIN_TABLE_DIRECTION_CONVENTION}
 
 # Run VPR for the 'and' design
 vpr ${VPR_ARCH_FILE} ${VPR_TESTBENCH_BLIF} \
@@ -14,7 +14,7 @@ vpr ${VPR_ARCH_FILE} ${VPR_TESTBENCH_BLIF} \
   --absorb_buffer_luts off \
   --write_rr_graph rr_graph_out.xml \
   --gen_post_synthesis_netlist on \
-  --skip_sync_clustering_and_routing_results on\
+  --skip_sync_clustering_and_routing_results on \
   --fix_clusters ${OPENFPGA_VPR_FIX_PINS_FILE}
 
 # Read OpenFPGA architecture definition
