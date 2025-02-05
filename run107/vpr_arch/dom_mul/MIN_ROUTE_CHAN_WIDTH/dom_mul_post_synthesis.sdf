@@ -1,0 +1,907 @@
+(DELAYFILE
+    (SDFVERSION "2.1")
+    (DESIGN "dom_mul")
+    (VENDOR "verilog-to-routing")
+    (PROGRAM "vpr")
+    (VERSION "8.1.0-dev+9e53e9a0a")
+    (DIVIDER /)
+    (TIMESCALE 1 ps)
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_ax_output_0_0_to_lut_n30_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (13010:13010:13010) (13010:13010:13010))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_ax_output_0_0_to_lut_n40_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (10130:10130:10130) (10130:10130:10130))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_ax_output_0_0_to_lut_n35_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (10130:10130:10130) (10130:10130:10130))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_ay_output_0_0_to_lut_n30_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (10130:10130:10130) (10130:10130:10130))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_ay_output_0_0_to_lut_n50_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_ay_output_0_0_to_lut_n65_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2930:2930:2930) (2930:2930:2930))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_bx_output_0_0_to_lut_n45_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_bx_output_0_0_to_lut_n55_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_bx_output_0_0_to_lut_n50_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_by_output_0_0_to_lut_n45_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_by_output_0_0_to_lut_n35_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_by_output_0_0_to_lut_n70_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2930:2930:2930) (2930:2930:2930))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_cx_output_0_0_to_lut_n60_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_cx_output_0_0_to_lut_n65_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2930:2930:2930) (2930:2930:2930))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_cx_output_0_0_to_lut_n70_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (4370:4370:4370) (4370:4370:4370))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_cy_output_0_0_to_lut_n55_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_cy_output_0_0_to_lut_n40_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_cy_output_0_0_to_lut_n60_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (4370:4370:4370) (4370:4370:4370))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_z0_output_0_0_to_lut_n50_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_z0_output_0_0_to_lut_n35_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_z1_output_0_0_to_lut_n40_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_z1_output_0_0_to_lut_n65_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_z2_output_0_0_to_lut_n55_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (10130:10130:10130) (10130:10130:10130))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_z2_output_0_0_to_lut_n70_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2930:2930:2930) (2930:2930:2930))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_axay_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_bxby_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_bxcy_xor_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_bxay_xor_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_axcy_xor_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_axby_xor_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_cxcy_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_cxay_xor_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_clock_output_0_0_to_latch_cxby_xor_reg_clock_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (110:110:110) (110:110:110))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n30_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (11570:11570:11570) (11570:11570:11570))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n45_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (10130:10130:10130) (10130:10130:10130))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n55_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (11570:11570:11570) (11570:11570:11570))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n50_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (11570:11570:11570) (11570:11570:11570))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n40_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (10130:10130:10130) (10130:10130:10130))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n35_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (13010:13010:13010) (13010:13010:13010))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n60_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (7250:7250:7250) (7250:7250:7250))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n65_input_0_3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (4370:4370:4370) (4370:4370:4370))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_reset_output_0_0_to_lut_n70_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (2930:2930:2930) (2930:2930:2930))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_aq_output_0_0_to_aq_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_bq_output_0_0_to_bq_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (10130:10130:10130) (10130:10130:10130))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_cq_output_0_0_to_cq_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (8690:8690:8690) (8690:8690:8690))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n30_output_0_0_to_latch_axay_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_axay_reg_output_0_0_to_lut_aq_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (5150:5150:5150) (5150:5150:5150))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n35_output_0_0_to_latch_axby_xor_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1140:1140:1140) (1140:1140:1140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_axby_xor_reg_output_0_0_to_lut_aq_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (3700:3700:3700) (3700:3700:3700))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n40_output_0_0_to_latch_axcy_xor_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1140:1140:1140) (1140:1140:1140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_axcy_xor_reg_output_0_0_to_lut_aq_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (3700:3700:3700) (3700:3700:3700))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n45_output_0_0_to_latch_bxby_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_bxby_reg_output_0_0_to_lut_bq_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (9470:9470:9470) (9470:9470:9470))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n50_output_0_0_to_latch_bxay_xor_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1140:1140:1140) (1140:1140:1140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_bxay_xor_reg_output_0_0_to_lut_bq_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (5140:5140:5140) (5140:5140:5140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n55_output_0_0_to_latch_bxcy_xor_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1140:1140:1140) (1140:1140:1140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_bxcy_xor_reg_output_0_0_to_lut_bq_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (3700:3700:3700) (3700:3700:3700))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n60_output_0_0_to_latch_cxcy_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (0:0:0) (0:0:0))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_cxcy_reg_output_0_0_to_lut_cq_input_0_1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (3710:3710:3710) (3710:3710:3710))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n65_output_0_0_to_latch_cxay_xor_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1140:1140:1140) (1140:1140:1140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_cxay_xor_reg_output_0_0_to_lut_cq_input_0_2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (5140:5140:5140) (5140:5140:5140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_lut_n70_output_0_0_to_latch_cxby_xor_reg_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (1140:1140:1140) (1140:1140:1140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "fpga_interconnect")
+        (INSTANCE routing_segment_latch_cxby_xor_reg_output_0_0_to_lut_cq_input_0_0)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH datain dataout (5140:5140:5140) (5140:5140:5140))
+            )
+        )
+    )
+
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n30)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (920:920:920) (920:920:920))
+                (IOPATH in[1] out (920:920:920) (920:920:920))
+                (IOPATH in[2] out (920:920:920) (920:920:920))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_axay_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_bq)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (920:920:920) (920:920:920))
+                (IOPATH in[1] out (920:920:920) (920:920:920))
+                (IOPATH in[2] out (920:920:920) (920:920:920))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n45)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (920:920:920) (920:920:920))
+                (IOPATH in[1] out (920:920:920) (920:920:920))
+                (IOPATH in[2] out (920:920:920) (920:920:920))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_bxby_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n55)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[1] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[2] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[3] out (1210:1210:1210) (1210:1210:1210))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_bxcy_xor_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n50)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[1] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[2] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[3] out (1210:1210:1210) (1210:1210:1210))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_bxay_xor_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n40)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[1] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[2] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[3] out (1210:1210:1210) (1210:1210:1210))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_axcy_xor_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_aq)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (920:920:920) (920:920:920))
+                (IOPATH in[1] out (920:920:920) (920:920:920))
+                (IOPATH in[2] out (920:920:920) (920:920:920))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n35)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[1] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[2] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[3] out (1210:1210:1210) (1210:1210:1210))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_axby_xor_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n60)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (920:920:920) (920:920:920))
+                (IOPATH in[1] out (920:920:920) (920:920:920))
+                (IOPATH in[2] out (920:920:920) (920:920:920))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_cxcy_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_cq)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (920:920:920) (920:920:920))
+                (IOPATH in[1] out (920:920:920) (920:920:920))
+                (IOPATH in[2] out (920:920:920) (920:920:920))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n65)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[1] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[2] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[3] out (1210:1210:1210) (1210:1210:1210))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_cxay_xor_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "LUT_K")
+        (INSTANCE lut_n70)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH in[0] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[1] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[2] out (1210:1210:1210) (1210:1210:1210))
+                (IOPATH in[3] out (1210:1210:1210) (1210:1210:1210))
+            )
+        )
+    )
+    
+    (CELL
+        (CELLTYPE "DFF")
+        (INSTANCE latch_cxby_xor_reg)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH (posedge clock) Q (430:430:430) (430:430:430))
+            )
+        )
+        (TIMINGCHECK
+            (SETUP D (posedge clock) (390:390:390))
+        )
+    )
+    
+)

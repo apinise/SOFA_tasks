@@ -1,0 +1,21 @@
+Netlist_File: dom_mul.net Netlist_ID: SHA256:9f43dbeae88543e6f76c9c5d78748c26b097710b300d11098190965108b4445e
+Array size: 10 x 10 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+n35		3	7	0	#0
+n65		8	4	0	#1
+out:aq		9	2	1	#2
+out:bq		9	2	2	#3
+out:cq		9	2	3	#4
+ax		9	4	0	#5
+ay		9	4	1	#6
+bx		9	4	2	#7
+by		9	4	3	#8
+cx		9	3	0	#9
+cy		9	3	1	#10
+z0		9	3	2	#11
+z1		9	3	3	#12
+z2		9	2	0	#13
+clock		9	1	1	#14
+reset		9	1	0	#15

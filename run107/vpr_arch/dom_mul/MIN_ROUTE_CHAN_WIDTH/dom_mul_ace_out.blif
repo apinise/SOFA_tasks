@@ -1,0 +1,61 @@
+# Benchmark "dom_mul" written by ABC on Mon Feb  3 12:58:15 2025
+.model dom_mul
+.inputs ax ay bx by cx cy z0 z1 z2 clock reset
+.outputs aq bq cq
+
+.latch        n30   axay_reg  2
+.latch        n35 axby_xor_reg  2
+.latch        n40 axcy_xor_reg  2
+.latch        n45   bxby_reg  2
+.latch        n50 bxay_xor_reg  2
+.latch        n55 bxcy_xor_reg  2
+.latch        n60   cxcy_reg  2
+.latch        n65 cxay_xor_reg  2
+.latch        n70 cxby_xor_reg  2
+
+.names cx by reset z2 n70
+-001 1
+0-01 1
+1100 1
+.names cx ay reset z1 n65
+-001 1
+0-01 1
+1100 1
+.names reset cy cx n60
+011 1
+.names bx cy reset z2 n55
+-001 1
+0-01 1
+1100 1
+.names bx ay reset z0 n50
+-001 1
+0-01 1
+1100 1
+.names reset by bx n45
+011 1
+.names cy ax reset z1 n40
+-001 1
+0-01 1
+1100 1
+.names by ax reset z0 n35
+-001 1
+0-01 1
+1100 1
+.names reset ax ay n30
+011 1
+.names axay_reg axcy_xor_reg axby_xor_reg aq
+001 1
+010 1
+100 1
+111 1
+.names bxcy_xor_reg bxay_xor_reg bxby_reg bq
+001 1
+010 1
+100 1
+111 1
+.names cxcy_reg cxby_xor_reg cxay_xor_reg cq
+001 1
+010 1
+100 1
+111 1
+.end

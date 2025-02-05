@@ -1,0 +1,362 @@
+#Timing report of worst 12 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: bxby_reg.Q[0] (.latch clocked by clock)
+Endpoint  : out:bq.outpad[0] (.output clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+bxby_reg.clk[0] (.latch)                                         0.110     0.110
+bxby_reg.Q[0] (.latch) [clock-to-output]                         0.430     0.540
+bq.in[2] (.names)                                                9.470    10.010
+bq.out[0] (.names)                                               0.920    10.930
+out:bq.outpad[0] (.output)                                      10.130    21.060
+data arrival time                                                         21.060
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                        -21.060
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -21.060
+
+
+#Path 2
+Startpoint: reset.inpad[0] (.input clocked by clock)
+Endpoint  : axby_xor_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+reset.inpad[0] (.input)                                          0.000     0.000
+n35.in[2] (.names)                                              13.010    13.010
+n35.out[0] (.names)                                              1.210    14.220
+axby_xor_reg.D[0] (.latch)                                       1.140    15.360
+data arrival time                                                         15.360
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+axby_xor_reg.clk[0] (.latch)                                     0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                        -15.360
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -15.640
+
+
+#Path 3
+Startpoint: axay_reg.Q[0] (.latch clocked by clock)
+Endpoint  : out:aq.outpad[0] (.output clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+axay_reg.clk[0] (.latch)                                         0.110     0.110
+axay_reg.Q[0] (.latch) [clock-to-output]                         0.430     0.540
+aq.in[0] (.names)                                                5.150     5.690
+aq.out[0] (.names)                                               0.920     6.610
+out:aq.outpad[0] (.output)                                       8.690    15.300
+data arrival time                                                         15.300
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                        -15.300
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -15.300
+
+
+#Path 4
+Startpoint: cxby_xor_reg.Q[0] (.latch clocked by clock)
+Endpoint  : out:cq.outpad[0] (.output clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+cxby_xor_reg.clk[0] (.latch)                                     0.110     0.110
+cxby_xor_reg.Q[0] (.latch) [clock-to-output]                     0.430     0.540
+cq.in[1] (.names)                                                5.140     5.680
+cq.out[0] (.names)                                               0.920     6.600
+out:cq.outpad[0] (.output)                                       8.690    15.290
+data arrival time                                                         15.290
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock uncertainty                                                0.000     0.000
+output external delay                                            0.000     0.000
+data required time                                                         0.000
+--------------------------------------------------------------------------------
+data required time                                                         0.000
+data arrival time                                                        -15.290
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -15.290
+
+
+#Path 5
+Startpoint: ax.inpad[0] (.input clocked by clock)
+Endpoint  : axay_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+ax.inpad[0] (.input)                                             0.000     0.000
+n30.in[1] (.names)                                              13.010    13.010
+n30.out[0] (.names)                                              0.920    13.930
+axay_reg.D[0] (.latch)                                           0.000    13.930
+data arrival time                                                         13.930
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+axay_reg.clk[0] (.latch)                                         0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                        -13.930
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -14.210
+
+
+#Path 6
+Startpoint: reset.inpad[0] (.input clocked by clock)
+Endpoint  : bxcy_xor_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+reset.inpad[0] (.input)                                          0.000     0.000
+n55.in[2] (.names)                                              11.570    11.570
+n55.out[0] (.names)                                              1.210    12.780
+bxcy_xor_reg.D[0] (.latch)                                       1.140    13.920
+data arrival time                                                         13.920
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+bxcy_xor_reg.clk[0] (.latch)                                     0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                        -13.920
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -14.200
+
+
+#Path 7
+Startpoint: reset.inpad[0] (.input clocked by clock)
+Endpoint  : bxay_xor_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+reset.inpad[0] (.input)                                          0.000     0.000
+n50.in[2] (.names)                                              11.570    11.570
+n50.out[0] (.names)                                              1.210    12.780
+bxay_xor_reg.D[0] (.latch)                                       1.140    13.920
+data arrival time                                                         13.920
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+bxay_xor_reg.clk[0] (.latch)                                     0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                        -13.920
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -14.200
+
+
+#Path 8
+Startpoint: ax.inpad[0] (.input clocked by clock)
+Endpoint  : axcy_xor_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+ax.inpad[0] (.input)                                             0.000     0.000
+n40.in[1] (.names)                                              10.130    10.130
+n40.out[0] (.names)                                              1.210    11.340
+axcy_xor_reg.D[0] (.latch)                                       1.140    12.480
+data arrival time                                                         12.480
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+axcy_xor_reg.clk[0] (.latch)                                     0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                        -12.480
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -12.760
+
+
+#Path 9
+Startpoint: reset.inpad[0] (.input clocked by clock)
+Endpoint  : bxby_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+reset.inpad[0] (.input)                                          0.000     0.000
+n45.in[0] (.names)                                              10.130    10.130
+n45.out[0] (.names)                                              0.920    11.050
+bxby_reg.D[0] (.latch)                                           0.000    11.050
+data arrival time                                                         11.050
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+bxby_reg.clk[0] (.latch)                                         0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                        -11.050
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -11.330
+
+
+#Path 10
+Startpoint: z1.inpad[0] (.input clocked by clock)
+Endpoint  : cxay_xor_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+z1.inpad[0] (.input)                                             0.000     0.000
+n65.in[3] (.names)                                               8.690     8.690
+n65.out[0] (.names)                                              1.210     9.900
+cxay_xor_reg.D[0] (.latch)                                       1.140    11.040
+data arrival time                                                         11.040
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+cxay_xor_reg.clk[0] (.latch)                                     0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                        -11.040
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                         -11.320
+
+
+#Path 11
+Startpoint: reset.inpad[0] (.input clocked by clock)
+Endpoint  : cxcy_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+reset.inpad[0] (.input)                                          0.000     0.000
+n60.in[0] (.names)                                               7.250     7.250
+n60.out[0] (.names)                                              0.920     8.170
+cxcy_reg.D[0] (.latch)                                           0.000     8.170
+data arrival time                                                          8.170
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+cxcy_reg.clk[0] (.latch)                                         0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                         -8.170
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -8.450
+
+
+#Path 12
+Startpoint: cx.inpad[0] (.input clocked by clock)
+Endpoint  : cxby_xor_reg.D[0] (.latch clocked by clock)
+Path Type : setup
+
+Point                                                             Incr      Path
+--------------------------------------------------------------------------------
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+input external delay                                             0.000     0.000
+cx.inpad[0] (.input)                                             0.000     0.000
+n70.in[0] (.names)                                               4.370     4.370
+n70.out[0] (.names)                                              1.210     5.580
+cxby_xor_reg.D[0] (.latch)                                       1.140     6.720
+data arrival time                                                          6.720
+
+clock clock (rise edge)                                          0.000     0.000
+clock source latency                                             0.000     0.000
+clock.inpad[0] (.input)                                          0.000     0.000
+cxby_xor_reg.clk[0] (.latch)                                     0.110     0.110
+clock uncertainty                                                0.000     0.110
+cell setup time                                                 -0.390    -0.280
+data required time                                                        -0.280
+--------------------------------------------------------------------------------
+data required time                                                        -0.280
+data arrival time                                                         -6.720
+--------------------------------------------------------------------------------
+slack (VIOLATED)                                                          -7.000
+
+
+#End of timing report
